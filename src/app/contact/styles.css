@@ -1,0 +1,17 @@
+body {
+  background: hsl(270deg 100% 95%);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 16px auto;
+}
+input,
+textarea {
+  margin-bottom: 16px;
+}
+textarea {
+  height: 5rem;
+}

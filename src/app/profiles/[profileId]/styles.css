@@ -1,0 +1,52 @@
+body {
+  padding: 32px;
+  font-family: sans-serif;
+  background: white;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0px;
+  background: white;
+  border: 1px solid hsl(0deg 0% 90%);
+  text-align: left;
+  max-width: 340px;
+}
+main::before {
+  content: '';
+  display: block;
+  height: 120px;
+  background: hsl(0deg 0% 90%);
+}
+.content {
+  padding: 16px;
+}
+h1 {
+  font-size: 1.25rem;
+  margin-bottom: 0px;
+  line-height: 1.2;
+}
+.handle {
+  font-size: 1rem;
+  color: hsl(0deg 0% 30%);
+  margin-bottom: 32px;
+}
+.location {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 16px;
+  color: hsl(0deg 0% 30%);
+}
+.stats {
+  display: flex;
+  margin-top: 8px;
+}
+.stats dt {
+  margin-right: 8px;
+}
+.stats dd {
+  margin-right: 32px;
+  font-weight: bold;
+}

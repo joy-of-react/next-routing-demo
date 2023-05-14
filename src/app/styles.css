@@ -52,6 +52,9 @@ body {
   font-family: sans-serif;
   background: hsl(40deg 50% 80%);
 }
+a {
+  color: hsl(230deg 100% 50%);
+}
 
 main {
   max-width: 600px;
