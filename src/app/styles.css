@@ -45,3 +45,21 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/* Styles */
+body {
+  padding: 32px;
+  font-family: sans-serif;
+  background: hsl(40deg 50% 80%);
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 32px;
+  background: white;
+  text-align: center;
+}
+h1 {
+  margin-bottom: 1em;
+}
