@@ -3,10 +3,8 @@ import { Globe } from 'react-feather';
 
 import { getProfileInfo } from '../../../helpers';
 
-async function ProfilePage({ params }) {
-  const { profileId } = params;
-
-  const profile = await getProfileInfo(profileId);
+async function ProfilePage() {
+  const profile = await getProfileInfo('1');
 
   if (!profile) {
     return (

@@ -5,8 +5,8 @@ const delay = (ms) =>
 
 export async function getProfileInfo(profileId) {
   // This method simulates a database request.
-  // For realism, we'll wait about 1 second.
-  await delay(Math.random() * 1000 + 500);
+  // For realism, we'll wait about half a second.
+  await delay(Math.random() * 200 + 400);
 
   return DATA[profileId];
 }
