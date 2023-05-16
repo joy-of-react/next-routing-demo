@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 function AboutPage() {
   return (
@@ -6,7 +7,7 @@ function AboutPage() {
       <h1>About This Website</h1>
       <p>It is a website.</p>
       <p>
-        <a href="/">Return home</a>
+        <Link href="/">Return home</Link>
       </p>
     </main>
   );

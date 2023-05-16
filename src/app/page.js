@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 function Home() {
   return (
@@ -6,7 +7,7 @@ function Home() {
       <h1>Welcome to my website!</h1>
       <p>
         To learn more about this website, visit
-        our <a href="/about">About Page</a>.
+        our <Link href="/about">About Page</Link>.
       </p>
     </main>
   );
