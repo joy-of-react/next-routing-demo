@@ -7,9 +7,9 @@ async function ProfilePage({
   params,
   searchParams,
 }) {
-  const profile = await getProfileInfo(
-    params.profileId
-  );
+  const { profileId } = await params;
+
+  const profile = await getProfileInfo(profileId);
 
   if (!profile) {
     return (
